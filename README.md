@@ -1,16 +1,111 @@
-## Hi there 👋
+# Hi, I'm Pablo Nieto Pareja 👋
 
-<!--
-**pablonietopareja/pablonietopareja** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Robotics Engineer | Industrial Robotics · Autonomous Systems · Robot Simulation · PLC · Python
 
-Here are some ideas to get you started:
+I am a Robotics and Industrial Engineer focused on **industrial robotics, autonomous systems, robot simulation and intelligent automation**.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+My work combines robotics, software and industrial automation to develop and evaluate real-world engineering solutions, from **autonomous mobile robot navigation** to **ABB RobotStudio simulations, PLC integration and intelligent robot scheduling**.
+
+---
+
+## 🤖 Selected Project
+
+### Autonomous Mobile Robot Navigation
+
+**A* Path Planning · Particle Filter Localization · Simulated LiDAR · PyBullet · Python**
+
+Autonomous mobile robot simulation combining global path planning, probabilistic localization, waypoint tracking and dynamic obstacle handling.
+
+The robot:
+
+- Plans multi-goal missions using **A***
+- Estimates its pose using a **Particle Filter**
+- Combines odometry with simulated **LiDAR**
+- Navigates using the estimated pose rather than ground truth
+- Detects dynamic workers and stops when safety distances are violated
+- Generates navigation logs and quantitative performance metrics
+
+🔗 **[Explore the project](https://github.com/pablonietopareja/Projects/tree/main/robotics-projects/Automation-AMR/Final_Project_V5)**
+
+---
+
+## 🔬 Research
+
+### Reactive Path Planning for Human-Robot Collaboration
+
+**Monte Carlo Tree Search · Human-Robot Collaboration · ABB RobotStudio · Python**
+
+Master's thesis investigating intelligent online robot scheduling using **Monte Carlo Tree Search (MCTS)** in a simulated human-robot collaborative manufacturing environment.
+
+The system integrates **ABB RobotStudio** with a Python-based decision-making layer and evaluates MCTS against conventional FIFO scheduling.
+
+🔗 **[View the publication](https://urn.kb.se/resolve?urn=urn:nbn:se:his:diva-26785)**
+
+---
+
+### Large-Scale Robotic 3D Printing
+
+**Industrial Robotics · Robotic Additive Manufacturing · ABB RobotStudio · Experimental Validation**
+
+Bachelor's thesis developed in collaboration with **ABB Robotics and RISE**, focused on standardized testing and process optimization for large-scale robotic additive manufacturing.
+
+🔗 **[View the publication](https://urn.kb.se/resolve?urn=urn:nbn:se:his:diva-24035)**
+
+---
+
+## 🧰 Technical Focus
+
+**Robotics**
+- Industrial Robotics
+- Autonomous Mobile Robots
+- Robot Simulation
+- Path Planning
+- Localization
+- Human-Robot Collaboration
+
+**Automation**
+- PLC Programming
+- CODESYS
+- Industrial Automation
+- Robot / PLC Integration
+
+**Software**
+- Python
+- C++
+- ROS
+- PyBullet
+- MATLAB
+
+**Robotics Tools**
+- ABB RobotStudio
+- RAPID
+- Digital Twin & Simulation
+
+---
+
+## 🎓 Background
+
+- **M.Sc. — Intelligent Automation / Virtual Product Realization**  
+  University of Skövde, Sweden
+
+- **M.Eng. — Industry & Robotics**  
+  ESILV, France
+
+- **B.Sc. — Industrial Engineering**  
+  University of Skövde, Sweden
+
+- **Bachelor's Degree — Robotics Engineering**  
+  University of Alicante, Spain
+
+---
+
+## 📫 Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Pablo_Nieto_Pareja-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pablo-nieto-pareja/)
+[![GitHub](https://img.shields.io/badge/GitHub-pablonietopareja-181717?logo=github&logoColor=white)](https://github.com/pablonietopareja)
+
+📧 **pablo.nietopareja02@gmail.com**
+
+---
+
+> Building intelligent robotic systems from simulation and algorithms to industrial automation.
