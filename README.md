@@ -25,7 +25,7 @@ The robot:
 - Detects dynamic workers and stops when safety distances are violated
 - Generates navigation logs and quantitative performance metrics
 
-🔗 **[Explore the project](https://github.com/pablonietopareja/Projects/tree/main/robotics-projects/Automation-AMR/Final_Project_V5)**
+🔗 **[Explore the project](https://github.com/pablonietopareja/amr-navigation-pybullet)**
 
 ---
 
