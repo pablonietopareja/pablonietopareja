@@ -4,7 +4,7 @@
 
 I am a Robotics and Industrial Engineer focused on **industrial robotics, autonomous systems, robot simulation and intelligent automation**.
 
-My work combines robotics, software and industrial automation to develop and evaluate real-world engineering solutions, from **ABB RobotStudio and PLC-integrated automation cells** to **autonomous mobile robot navigation and intelligent robot scheduling**.
+My work combines robotics, software and industrial automation to develop and evaluate real-world engineering solutions, from **ABB RobotStudio and PLC-integrated automation cells** to **autonomous mobile robot navigation, deep reinforcement learning and intelligent robot scheduling**.
 
 ---
 
@@ -33,13 +33,13 @@ The project includes:
 
 ### Autonomous Mobile Robot Navigation
 
-**A* Path Planning · Particle Filter Localization · Simulated LiDAR · PyBullet · Python**
+**A\* Path Planning · Particle Filter Localization · Simulated LiDAR · PyBullet · Python**
 
 Autonomous mobile robot simulation combining global path planning, probabilistic localization, waypoint tracking and dynamic obstacle handling.
 
 The robot:
 
-- Plans multi-goal missions using **A***
+- Plans multi-goal missions using **A\***
 - Estimates its pose using a **Particle Filter**
 - Combines odometry with simulated **LiDAR**
 - Navigates using the estimated pose rather than ground truth
@@ -47,6 +47,30 @@ The robot:
 - Generates navigation logs and quantitative performance metrics
 
 🔗 **[Explore the project](https://github.com/pablonietopareja/amr-navigation-pybullet)**
+
+---
+
+### Deep Reinforcement Learning — Super Mario Bros PPO
+
+**Proximal Policy Optimization · Stable-Baselines3 · PyTorch · Computer Vision · Python**
+
+Visual deep reinforcement learning agent trained with **Proximal Policy Optimization (PPO)** to navigate Super Mario Bros World 1-1.
+
+The project implements:
+
+- Visual preprocessing from RGB to **84 × 84 grayscale observations**
+- Temporal state representation using **4-frame stacking**
+- Frame skipping for more efficient interaction with the environment
+- Custom reward shaping based on progress, enemies, coins and level completion
+- Parallel training using **16 vectorized environments**
+- Observation and reward normalization with **VecNormalize**
+- Periodic deterministic evaluation and checkpoint selection
+- Training over **1,000,000 global timesteps**
+- Best deterministic evaluation reward of **4,876.60 at 900,000 timesteps**
+
+The repository includes the complete experiment notebook, trained PPO checkpoint, normalization state, quantitative results and gameplay recording.
+
+🔗 **[Explore the project](https://github.com/pablonietopareja/super-mario-bros-ppo)**
 
 ---
 
@@ -92,12 +116,20 @@ Bachelor's thesis developed in collaboration with **ABB Robotics and RISE**, foc
 - OPC UA
 - Virtual Commissioning
 
+**Artificial Intelligence**
+- Reinforcement Learning
+- Deep Reinforcement Learning
+- Monte Carlo Tree Search
+- Autonomous Decision-Making
+- Computer Vision
+
 **Software**
 - Python
 - C++
 - ROS
 - PyBullet
 - MATLAB
+- PyTorch
 
 **Robotics Tools**
 - ABB RobotStudio
