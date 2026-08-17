@@ -4,11 +4,32 @@
 
 I am a Robotics and Industrial Engineer focused on **industrial robotics, autonomous systems, robot simulation and intelligent automation**.
 
-My work combines robotics, software and industrial automation to develop and evaluate real-world engineering solutions, from **autonomous mobile robot navigation** to **ABB RobotStudio simulations, PLC integration and intelligent robot scheduling**.
+My work combines robotics, software and industrial automation to develop and evaluate real-world engineering solutions, from **ABB RobotStudio and PLC-integrated automation cells** to **autonomous mobile robot navigation and intelligent robot scheduling**.
 
 ---
 
-## 🤖 Selected Project
+## 🤖 Selected Projects
+
+### ABB RobotStudio + CODESYS Pick-and-Place Cell
+
+**ABB RobotStudio · RAPID · CODESYS · Ladder Diagram · OPC UA · Industrial Automation**
+
+Industrial robotic pick-and-place cell integrating an **ABB robot simulation with CODESYS PLC control** through an OPC UA-based virtual automation architecture.
+
+The project includes:
+
+- PLC-controlled automatic and manual robot operation
+- Deterministic **PLC ↔ robot job handshaking**
+- ABB RAPID job dispatch and motion execution
+- Dynamic pick-position selection from conveyor sensors
+- Magnetic end-effector control
+- Reusable CODESYS Ladder Diagram function blocks
+- PLCopenXML source export for long-term inspection and portability
+- Custom RobotStudio simulation assets and I/O engineering
+
+🔗 **[Explore the project](https://github.com/pablonietopareja/abb-robotstudio-codesys-pick-and-place)**
+
+---
 
 ### Autonomous Mobile Robot Navigation
 
@@ -68,6 +89,8 @@ Bachelor's thesis developed in collaboration with **ABB Robotics and RISE**, foc
 - CODESYS
 - Industrial Automation
 - Robot / PLC Integration
+- OPC UA
+- Virtual Commissioning
 
 **Software**
 - Python
